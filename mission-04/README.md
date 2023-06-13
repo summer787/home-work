@@ -38,4 +38,4 @@ grid-template-areas:
 이미지에 filter: drop-shadow(6px 10px 10px gray); 활용하여 그림자를 만들었다
 
 
-![](mission04-img.png)
+![](missin04-img.png)
