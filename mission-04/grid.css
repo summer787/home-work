@@ -1,0 +1,67 @@
+.newsBoard{
+  width: 380px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "title title title title title title title title title link link link"
+  "img img img img newstext newstext newstext newstext newstext newstext newstext newstext" ;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  color: orangered;
+  font-weight: bold;
+  grid-area: title;
+  margin: 0 0 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.plusLink{
+ text-decoration: none;
+ color: black;
+ font-size: 11px;
+ margin: 0 0 24px;
+ padding-left: 45px;
+ grid-area: link;
+}
+
+.newsImage {
+  width: 112px;
+  height: 103px;
+  font-size: 10px;
+  margin: 12px 0 0;
+  grid-area: img;
+  text-align: center;
+}
+
+.imageOnly{
+  filter: drop-shadow(6px 10px 10px gray);
+}
+
+.imgCaption{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.newsText {
+  grid-area: newstext;
+  margin: 12px 0 0;
+}
+
+.newsTitle {
+  margin-top: 0;
+  font-size: 13px;
+  margin:12px, 0, 0, 4px;
+}
+
+.newsDate{
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+.newsLetter{
+  font-size: 12px;
+  text-align: justify ;
+}
