@@ -62,7 +62,7 @@ li::before {
 }
 
 .sprite {
-  background: url(./rank.png) no-repeat;
+  background: url(./sprite.png) no-repeat;
   background-position: right;
 }
 
